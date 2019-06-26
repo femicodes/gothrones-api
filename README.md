@@ -20,7 +20,7 @@ An API wrapper for the [Game of Thrones API](https://anapioficeandfire.com/)
   - Books that were released after, or on, the given date are included in the response.
 - **`GET` /books/toReleaseDate**
   - Books that were released before, or on, the given date are included in the response.
-- **`POST` /books/:name/comment**
+- **`POST` /books/:userID/comment**
   - Users can comment on a book.
 - **`GET` /randomBooks**
   -  Get a random book
@@ -36,7 +36,7 @@ An API wrapper for the [Game of Thrones API](https://anapioficeandfire.com/)
   -  Characters with the given gender are included in the response.
 - **`GET` /characters/culture**
   -  Characters with the given culture are included in the response.
-- **`POST` /characters/:name/comment**
+- **`POST` /characters/:userID/comment**
   - Users can comment on a character.
 - **`GET` /characters/randomCharacter**
   -  Get a random character
