@@ -56,7 +56,7 @@ An API wrapper for the [Game of Thrones API](https://anapioficeandfire.com/)
   -  Get the character of this house's current lord.
 - **`GET` /houses/heir**
   -  Get the character of this house's heir.
-- **`GET` /characters/randomHouse**
+- **`GET` /houses/randomHouse**
   -  Get a random house
 
 
